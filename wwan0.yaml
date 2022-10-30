@@ -1,0 +1,115 @@
+---
+proxies:
+- name: VMSanggoroJKT-byu
+  server: gw.ruangguru.com 
+  port: 443
+  type: vmess
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: gw.ruangguru.com
+  network: ws
+  ws-opts:
+    path: "wss://gw.ruangguru.com/fastssh/pre_wisnuzm/eiphel28/"
+    headers:
+      Host: id-sanggoro-jkt2.bypass.id
+  udp: true
+- name: VMSanggoro-byu
+  server: gw.ruangguru.com 
+  port: 443
+  type: vmess
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: gw.ruangguru.com
+  network: ws
+  ws-opts:
+    path: "wss://gw.ruangguru.com/fastssh/pre_wisnuzm/eiphel28/"
+    headers:
+      Host: id-sanggoro2.bypass.id
+  udp: true
+- name: IDvmess-byu
+  server: gw.ruangguru.com 
+  port: 443
+  type: vmess
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: gw.ruangguru.com
+  network: ws
+  ws-opts:
+    path: "wss://gw.ruangguru.com/fastssh/pre_wisnuzm/eiphel28/"
+    headers:
+      Host: id-vmess.bypass.id
+  udp: true
+- name: TJHerza-byu
+  server: gw.ruangguru.com
+  port: 443
+  type: trojan
+  password: bb6c8550-ac27-11ec-818f-1577c1651679
+  network: ws
+  sni: gw.ruangguru.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "wss://gw.ruangguru.com/howdy"
+    headers:
+            Host: id-herza.bypass.id
+- name: TJKreatif-byu
+  server: gw.ruangguru.com
+  port: 443
+  type: trojan
+  password: 54680280-a5fb-11ec-89c0-1577c1651679
+  network: ws
+  sni: gw.ruangguru.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "wss://gw.ruangguru.com/howdy"
+    headers:
+            Host: id-ikd.bypass.id
+- name: TJBiznet-byu
+  server: gw.ruangguru.com
+  port: 443
+  type: trojan
+  password: d1a97f90-335d-11ed-a92b-1577c1651679
+  network: ws
+  sni: gw.ruangguru.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "wss://gw.ruangguru.com/howdy"
+    headers:
+            Host: id-biznet1.bypass.id
+- name: TJSANGGORO-byu
+  server: gw.ruangguru.com
+  port: 443
+  type: trojan
+  password: 8ecf5b60-a5f8-11ec-a9e0-1577c1651679
+  network: ws
+  sni: gw.ruangguru.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "wss://gw.ruangguru.com/howdy"
+    headers:
+           Host: id-sanggoro.bypass.id
+- name: TJSANGGOROJKT-byu
+  server: gw.ruangguru.com
+  port: 443
+  type: trojan
+  password: e3696950-3fe7-11ed-9d08-1577c1651679
+  network: ws
+  sni: gw.ruangguru.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: "wss://gw.ruangguru.com/howdy"
+    headers:
+           Host: id-sanggoro-jkt1.bypass.id
